@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rockets</string>
+    <string name="engine_count">Engines : %d</string>
+    <string name="rocket_country">Country : %s</string>
+    <string name="active_filter">Active</string>
+    <string name="launches_graph_title">Year Luanches</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="welcome_dialog_title">Welcome !</string>
+    <string name="welcome_dialog_message">Keep track of new space mission</string>
+    <string name="rocket_detail">Details</string>
+    <string name="rocket_company">Company : %s</string>
+    <string name="rocket_list_fragment_title">Rockets</string>
+</resources>
