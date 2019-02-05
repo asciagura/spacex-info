@@ -26,7 +26,7 @@ android {
 }
 ext {
     room_version = "2.0.0"
-    nav_version = "1.0.0-alpha11"
+    nav_version = "1.0.0-beta01"
     lifecycle_version = "2.0.0"
     glide_version = '4.8.0'
     epoxy_version = "3.2.0"
@@ -68,10 +68,6 @@ dependencies {
     implementation "android.arch.navigation:navigation-fragment-ktx:$nav_version"
     implementation "android.arch.navigation:navigation-ui-ktx:$nav_version"
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
-    implementation "com.squareup.okhttp3:logging-interceptor:3.12.0"
-//    implementation "com.airbnb.android:epoxy:$epoxy_version"
-//    implementation "com.airbnb.android:epoxy-databinding:$epoxy_version"
-//    kapt "com.airbnb.android:epoxy-processor:$epoxy_version"
     implementation 'eu.davidea:flexible-adapter:5.1.0'
     implementation 'eu.davidea:flexible-adapter-ui:1.0.0'
     implementation 'eu.davidea:flexible-adapter-livedata:1.0.0-b3'

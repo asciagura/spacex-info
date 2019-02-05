@@ -5,14 +5,11 @@ import androidx.room.Room
 
 object DatabaseUtil {
 
-    private var isInitialized = false
-
     @Synchronized
     fun init(application: Application) {
-        if (!isInitialized)
+        if (!this::appDatabase.isInitialized)
             appDatabase = Room.databaseBuilder(application, AppDatabase::class.java, AppDatabase.dbName)
-                    .build()
-                    .also { isInitialized = true }
+                .build()
     }
 
     private lateinit var appDatabase: AppDatabase
