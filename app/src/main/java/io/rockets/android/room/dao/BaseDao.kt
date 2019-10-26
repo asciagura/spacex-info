@@ -1,4 +1,4 @@
-package io.rockets.android.room
+package io.rockets.android.room.dao
 
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy

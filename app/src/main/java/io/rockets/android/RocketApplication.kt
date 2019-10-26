@@ -8,6 +8,5 @@ class RocketApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         DatabaseUtil.init(this)
-
     }
 }
