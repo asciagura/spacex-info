@@ -9,4 +9,7 @@ interface LaunchApi {
 
     @GET("launches")
     fun getAllRocketLaunches(@Query("rocket_id") rocketId: String): Single<List<Launch>>
+
+    @GET("launches")
+    suspend fun getAllRocketLaunchesAsync(@Query("rocket_id") rocketId: String): List<Launch>
 }

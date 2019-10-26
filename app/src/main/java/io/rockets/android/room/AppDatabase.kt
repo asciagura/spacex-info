@@ -5,6 +5,8 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import io.rockets.android.data.Launch
 import io.rockets.android.data.Rocket
+import io.rockets.android.room.dao.LaunchDao
+import io.rockets.android.room.dao.RocketDao
 
 @Database(entities = [Rocket::class, Launch::class], version = 1)
 @TypeConverters(DateConverter::class, ArrayStringConverter::class)

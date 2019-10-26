@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import io.reactivex.disposables.Disposable
 import io.rockets.android.data.Rocket
 import io.rockets.android.net.RocketApi
-import io.rockets.android.room.RocketDao
+import io.rockets.android.room.dao.RocketDao
 
 class RocketRepositoryImpl(private val rocketApi: RocketApi, private val rocketDao: RocketDao) : RocketRepository {
 
